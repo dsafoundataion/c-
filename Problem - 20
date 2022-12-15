@@ -1,0 +1,39 @@
+Problem
+Chef is given 33 integers A, B,A,B, and CC such that A \lt B \lt CA<B<C.
+
+Chef needs to find the value of max(A, B, C) - min(A, B, C)max(A,B,C)−min(A,B,C).
+
+Here max(A, B, C)max(A,B,C) denotes the maximum value among A, B, CA,B,C while min(A, B, C)min(A,B,C) denotes the minimum value among A, B, CA,B,C.
+
+Input Format
+The first line of input will contain a single integer TT, denoting the number of test cases.
+Each test case consists of 33 integers A, B, CA,B,C.
+Output Format
+For each test case, output the value of max(A, B, C) - min(A, B, C)max(A,B,C)−min(A,B,C).
+
+Constraints
+1 \leq T \leq 101≤T≤10
+1 \leq A \lt B \lt C \leq 101≤A<B<C≤10
+Sample 1:
+Input
+Output
+4
+1 3 10
+5 6 7
+3 8 9
+2 5 6
+9
+2
+6
+4
+Explanation:
+Test case 11: Here, max(1, 3, 10) = 10max(1,3,10)=10 and min(1, 3, 10) = 1min(1,3,10)=1. Thus, the difference is 99.
+
+Test case 22: Here, max(5, 6, 7) = 7max(5,6,7)=7 and min(5, 6, 7) = 5min(5,6,7)=5. Thus, the difference is 22.
+
+Test case 33: Here, max(3, 8, 9) = 9max(3,8,9)=9 and min(3, 8, 9) = 3min(3,8,9)=3. Thus, the difference is 66.
+
+Test case 44: Here, max(2, 5, 6) = 6max(2,5,6)=6 and min(2, 5, 6) = 2min(2,5,6)=2. Thus, the difference is 44.
+
+ link => https://www.codechef.com/problems/MAXDIFFMIN
+
